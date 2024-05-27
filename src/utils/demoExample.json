@@ -1,0 +1,26 @@
+[
+  { 
+  "id": 1,
+  "name": "Tienda A",
+  "location": { 
+    "lat": 40.712776,
+    "lng": -74.005974 },
+  "description": "Descripción de Tienda A" 
+  },
+  { 
+  "id": 2,
+  "name": "Tienda B",
+  "location": { 
+    "lat": 34.052235,
+    "lng": -118.243683 },
+  "description": "Descripción de Tienda B" 
+  },
+  { 
+  "id": 3,
+  "name": "Tienda C",
+  "location": { 
+    "lat": 41.878113,
+    "lng": -87.629799 },
+  "description": "Descripción de Tienda C" 
+  }
+]
