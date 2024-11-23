@@ -33,9 +33,9 @@ const useMap = () :HookMapType => {
   }, [])
 
   
-  const getLocations = () => {
+  const getLocations = async () => {
     try {
-      return getMarketLocations()
+      return await getMarketLocations()
     } catch (error) {
       console.log(error);
       return null

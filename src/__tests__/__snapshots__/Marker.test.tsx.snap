@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Marker > should render 1`] = `
+<div>
+  <div>
+    <button>
+      test
+    </button>
+  </div>
+</div>
+`;

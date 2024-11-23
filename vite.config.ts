@@ -9,5 +9,15 @@ export default defineConfig({
   test: {
     environment:'jsdom',
     globals: true,
+    coverage:{
+      provider: 'v8',
+      exclude:[
+        'src/main.tsx',
+        'src/vite-env.d.ts',
+        'tailwind.config.js',
+        'vite.config.ts',
+        '.eslintrc.cjs',
+      ]
+    }
   }
 })
